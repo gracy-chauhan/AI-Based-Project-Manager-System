@@ -1,37 +1,32 @@
-# 🧠 AI-Based Project Manager System
+💬 Real-Time Chat Application
+A fully functional real-time chat application built using modern web technologies. This app allows multiple users to join public or private chat rooms and communicate instantly using WebSockets.
 
-An intelligent project management platform that integrates AI to assist with task tracking, user management, and project optimization. Built using a modern MERN-stack architecture with backend services and a React-powered frontend.
+🚀 Features
+🔒 User authentication and registration
 
----
+🧑‍🤝‍🧑 Real-time messaging with WebSocket (Socket.IO/WebSocket API)
 
-## 🚀 Features
+💬 Multiple chat rooms or private one-to-one chats
 
-- 🔐 User Authentication (Register/Login)
-- 📁 Project & Task Management
-- 🤖 AI Integration for enhanced decision making
-- 📊 Real-time collaboration with WebSockets
-- 📂 Organized backend & frontend structure
-- 🌐 RESTful API
+🧠 Typing indicators and online user status
 
----
+📅 Message timestamps and message history
 
-## 🛠️ Tech Stack
+📱 Responsive UI (mobile & desktop)
 
-### Frontend:
-- React.js
-- Tailwind CSS
-- Axios
-- Vite
+🌐 Deployment-ready (Heroku/Vercel/Docker support)
 
-### Backend:
-- Node.js
-- Express.js
-- MongoDB (with Mongoose)
-- Redis (for caching)
-- JWT (Authentication)
-- OpenAI API (for AI features)
+🛠️ Tech Stack
 
----
+Frontend	Backend	Real-Time	Database	Deployment
+React.js / HTML/CSS	Node.js / Express	Socket.IO / WebSocket	MongoDB / Firebase / PostgreSQL	Vercel / Heroku / Docker
+📦 Installation
+Prerequisites
+Node.js & npm
+
+MongoDB (or any DB of your choice)
+
+
 
 ## 📁 Folder Structure
 main/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── services/ │ ├── middleware/ │ └── server.js ├── frontend/ │ ├── src/ │ ├── public/ │ └── index.html └── .gitignore
