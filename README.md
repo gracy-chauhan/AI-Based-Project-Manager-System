@@ -34,4 +34,4 @@ An intelligent project management platform that integrates AI to assist with tas
 ---
 
 ## 📁 Folder Structure
-
+main/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── services/ │ ├── middleware/ │ └── server.js ├── frontend/ │ ├── src/ │ ├── public/ │ └── index.html └── .gitignore
